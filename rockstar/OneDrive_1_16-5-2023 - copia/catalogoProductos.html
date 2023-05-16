@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ROCKSTAR BOUTIQUE SHOP</title>
+  <style>
+    body {
+      font-family: Courier, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header nav {
+      display: flex;
+    }
+
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+
+    .banner {
+    background-image: url("img/fondo.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .banner h2 {
+      margin: 0;
+      font-size: 48px;
+      color: #fff;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .banner p {
+      margin: 0;
+      font-size: 24px;
+      color: #fff;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .product-card {
+      width: calc(33.33% - 20px);
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px #4494dff1;
+      margin-bottom: 20px;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .product-card h3 {
+      margin: 10px;
+      font-size: 24px;
+    }
+
+    .product-card p {
+      margin: 10px;
+      font-size: 18px;
+    }
+
+    .product-card button {
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4494dff1;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ROCKSTAR BOUTIQUE SHOP</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Gestion Ventas</a>
+      <a href=registroProductos.html>Registro Productos</a>
+    </nav>
+  </header>
+
+  <div class="banner">
+    <h2>¡Bienvenido a ROCKSTAR BOUTIQUE!</h2>
+    <p>Encuentra las mejores prendas de moda para hombres y mujeres</p>
+
+  </div>
+
+  <div class="contenedor">
+    <div class="tarjeta-producto">
+        <center><div class="product-card">
+        <img src="img/pantalones.jpg">
+        <h3>Pantalones cargo</h3>
+        <p>pantalon cargo ancho con bolsillos en seda.<br>
+            $90.000</p>
+        <button>Añadir al carrito</button>
+      </div></center>
+</div>
+        <center><div class="product-card">
+        <img src="img/botasdama.jpg">
+        <h3>Botas de cuero con taches-Mujer</h3>
+        <p>Botas tipo rock femeninas con taches<br>
+            $120.000</p>
+        <button>Añadir al carrito</button>
+        </div></center>
+</html>
